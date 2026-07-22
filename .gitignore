@@ -1,0 +1,42 @@
+﻿# ===== 敏感数据（绝对不能上传）=====
+backend/configs.json
+backend/config.json
+backend/.env
+
+# 用户数据文件
+backend/conversations.json
+backend/messages.json
+backend/teams.json
+backend/data.json
+backend/skills.json
+backend/blueprints.json
+backend/meta_team_config.json
+
+# 用户数据目录
+backend/blueprints/
+backend/meta_team_tasks/
+backend/meta_team_reviews/
+
+# ===== 捐赠二维码 =====
+frontend/public/alipay-qr.jpg
+frontend/public/wechat-qr.jpg
+
+# ===== 依赖和构建产物 =====
+frontend/node_modules/
+frontend/dist/
+
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# ===== IDE 和系统文件 =====
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini

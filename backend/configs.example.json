@@ -1,0 +1,14 @@
+[
+  {
+    "id": "cfg_example",
+    "name": "示例配置",
+    "provider": "openai",
+    "api_base": "https://api.openai.com/v1",
+    "api_key": "sk-你的密钥",
+    "model": "gpt-4o-mini",
+    "temperature": 0.7,
+    "max_tokens": 8000,
+    "context_window": 131072,
+    "enabled": true
+  }
+]

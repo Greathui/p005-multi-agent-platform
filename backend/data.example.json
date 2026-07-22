@@ -1,0 +1,23 @@
+{
+  "main": {
+    "id": "main",
+    "name": "主智能体",
+    "role": "项目经理",
+    "template": "coordinator",
+    "system_prompt": "你是主智能体（项目经理），负责理解用户需求、拆解任务、调度子智能体协作完成工作。",
+    "can_use_tools": true,
+    "can_invoke_sub_agent": true,
+    "model_config": {
+      "config_id": ""
+    },
+    "enabled_skills": [],
+    "memory_log": [],
+    "stats": {
+      "total_tasks": 0,
+      "completed_tasks": 0,
+      "total_duration_sec": 0,
+      "avg_duration_sec": 0,
+      "last_active_at": ""
+    }
+  }
+}
